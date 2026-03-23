@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Nicky's Kitchen",
+    "slug": "nickys-kitchen",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#e74c3c"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.nickyskitchen.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#e74c3c",
+        "foregroundImage": "./assets/images/logo.png"
+      },
+      "package": "com.nickyskitchen.app"
+    },
+    "web": {
+      "favicon": "./assets/images/logo.png",
+      "bundler": "metro"
+    }
+  }
+}
